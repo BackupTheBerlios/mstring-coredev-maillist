@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Mstring-coredev] Error in compiling project MuiString
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/mstring-coredev/2008-June/index.html" >
+   <LINK REL="made" HREF="mailto:mstring-coredev%40lists.berlios.de?Subject=Re%3A%20%5BMstring-coredev%5D%20Error%20in%20compiling%20project%20MuiString&In-Reply-To=%3C48600CC0.7030500%40gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000012.html">
+   <LINK REL="Next"  HREF="000014.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Mstring-coredev] Error in compiling project MuiString</H1>
+    <B>Tirra</B> 
+    <A HREF="mailto:mstring-coredev%40lists.berlios.de?Subject=Re%3A%20%5BMstring-coredev%5D%20Error%20in%20compiling%20project%20MuiString&In-Reply-To=%3C48600CC0.7030500%40gmail.com%3E"
+       TITLE="[Mstring-coredev] Error in compiling project MuiString">tirra.newly at gmail.com
+       </A><BR>
+    <I>Mon Jun 23 22:51:12 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000012.html">[Mstring-coredev] Error in compiling project MuiString
+</A></li>
+        <LI>Next message: <A HREF="000014.html">[Mstring-coredev] Virtual memory design - free microkernel from	possible bugs ...
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#13">[ date ]</a>
+              <a href="thread.html#13">[ thread ]</a>
+              <a href="subject.html#13">[ subject ]</a>
+              <a href="author.html#13">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Rohit Hooda wrote:
+&gt;<i> Hello,
+</I>Hello,
+&gt;<i>
+</I>&gt;<i> When I do a make in the root project directory of MuiString then I get 
+</I>&gt;<i> the following messages :
+</I>&gt;<i>
+</I>&gt;<i> [<A HREF="https://lists.berlios.de/mailman/listinfo/mstring-coredev">root at rohit-laptop</A> MuiString]# make
+</I>&gt;<i> [CC] eza/generic_api/main.c
+</I>&gt;<i> eza/generic_api/main.c:1: error: code model 'kernel' not supported in 
+</I>&gt;<i> the 32 bit mode
+</I>&gt;<i> eza/generic_api/main.c:1: sorry, unimplemented: 64-bit mode not 
+</I>&gt;<i> compiled in
+</I>&gt;<i> make: *** [eza/generic_api/main.o] Error 1
+</I>It's a problem of your compiler and binutils - you need amd64 port.
+In this case I can recommend you to do the following -
+download gcc and binutils - compile it for target amd64 and make changes 
+to Makefile.inc  - so, I can minimize your headache - there are two 
+files in attachments - the shell script will do all stuff for amd64 gcc 
+and binutils (run as root) - and Makefile.inc - that you need.
+
+If paths is not correct in Makefile.inc - correct it with right ones.
+
+Thanks.
+
+&gt;<i>
+</I>&gt;<i> My config and Makefile.inc are default, I haven't made any changes to 
+</I>&gt;<i> them.
+</I>&gt;<i>
+</I>&gt;<i> Let me know how to get around this problem
+</I>&gt;<i>
+</I>&gt;<i> -- 
+</I>&gt;<i> Thanks,
+</I>&gt;<i> Rohit Hooda
+</I>&gt;<i> ------------------------------------------------------------------------
+</I>&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Mstring-coredev mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/mstring-coredev">Mstring-coredev at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/mstring-coredev">https://lists.berlios.de/mailman/listinfo/mstring-coredev</A>
+</I>&gt;<i>   
+</I>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080624/b1d22d44/attachment.html">https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080624/b1d22d44/attachment.html</A>&gt;
+-------------- next part --------------
+An embedded and charset-unspecified text was scrubbed...
+Name: Makefile.inc
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080624/b1d22d44/attachment.ksh">https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080624/b1d22d44/attachment.ksh</A>&gt;
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: toolchain.amd64.sh
+Type: application/x-sh
+Size: 2750 bytes
+Desc: not available
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080624/b1d22d44/attachment.sh">https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080624/b1d22d44/attachment.sh</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000012.html">[Mstring-coredev] Error in compiling project MuiString
+</A></li>
+	<LI>Next message: <A HREF="000014.html">[Mstring-coredev] Virtual memory design - free microkernel from	possible bugs ...
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#13">[ date ]</a>
+              <a href="thread.html#13">[ thread ]</a>
+              <a href="subject.html#13">[ subject ]</a>
+              <a href="author.html#13">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/mstring-coredev">More information about the Mstring-coredev
+mailing list</a><br>
+</body></html>

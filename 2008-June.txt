@@ -1,0 +1,786 @@
+From tirra.newly at gmail.com  Wed Jun 11 10:49:03 2008
+From: tirra.newly at gmail.com (Tirra)
+Date: Wed, 11 Jun 2008 12:49:03 +0400
+Subject: [Mstring-coredev] Current progress
+Message-ID: <484F917F.7050207@gmail.com>
+
+Hello folks,
+
+I will report now in this mail about current progress.
+There are a good news from my microkernel sandbox ;)
+I've tested all initialization and paging - all is works , some of my 
+works already committed to the `MuiString' repository.
+EZA API is now under process and will be ready soon as possible (depends 
+on my time) and it will be well documented like usually - it will be a 
+signal to make other ports.
+Overally - my sandbox under heavy development stage and I need to 
+test/implement the following
+ - Memory Manager (partly implemented)
+ - Virtual Memory Manager
+ - Scheduler (partly implemented)
+ - IPC with driver hooks and interfaces
+ - NS
+There are no so long stage in the case that kernel binary built and 
+works well.
+Also I will create some later a new repository with testing microkernel 
+servers - just for tests - after this stage we're can slowly switch to 
+more sweet stage - servers and drivers with system libs(it's area of 
+other project).
+I'm planning to make all this job within 2-3 month (assume - september 
+is a deadline) - also I want core team to help with development, bug 
+fixing and porting to other architectures.
+If you have questions on current stage and questions about source code - 
+mail here.
+
+thanks and have a nice day.
+
+
+From tirra.newly at gmail.com  Mon Jun 16 13:42:20 2008
+From: tirra.newly at gmail.com (Tirra)
+Date: Mon, 16 Jun 2008 15:42:20 +0400
+Subject: [Mstring-coredev] Support and sponsorship
+Message-ID: <4856519C.9020408@gmail.com>
+
+Hello folks,
+I have a bad news - planned way with sponsoring to the project was 
+rejected ;(
+
+
+In this case I'm standing my works on project like a hobby (my general 
+hobby).
+Deadlines for starting up moving - now it's december of 2008.
+
+If you have comments or something else - mail here.
+
+thank you - have a nice day.
+
+
+From vitaly.v.ch at gmail.com  Tue Jun 17 07:55:13 2008
+From: vitaly.v.ch at gmail.com (Vitaly V. Ch)
+Date: Tue, 17 Jun 2008 05:55:13 +0000
+Subject: [Mstring-coredev] Support and sponsorship
+In-Reply-To: <4856519C.9020408@gmail.com>
+References: <4856519C.9020408@gmail.com>
+Message-ID: <6efe08af0806162255m470f04cv440047179f350f5d@mail.gmail.com>
+
+? ????????? ;(
+
+On Mon, Jun 16, 2008 at 11:42 AM, Tirra <tirra.newly at gmail.com> wrote:
+> Hello folks,
+> I have a bad news - planned way with sponsoring to the project was
+> rejected ;(
+>
+>
+> In this case I'm standing my works on project like a hobby (my general
+> hobby).
+> Deadlines for starting up moving - now it's december of 2008.
+>
+> If you have comments or something else - mail here.
+>
+> thank you - have a nice day.
+> _______________________________________________
+> Mstring-coredev mailing list
+> Mstring-coredev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/mstring-coredev
+>
+
+From hooda.rohit at gmail.com  Tue Jun 17 10:15:28 2008
+From: hooda.rohit at gmail.com (Rohit Hooda)
+Date: Tue, 17 Jun 2008 13:45:28 +0530
+Subject: [Mstring-coredev] Support and sponsorship
+In-Reply-To: <6efe08af0806162255m470f04cv440047179f350f5d@mail.gmail.com>
+References: <4856519C.9020408@gmail.com>
+	<6efe08af0806162255m470f04cv440047179f350f5d@mail.gmail.com>
+Message-ID: <cc8e457e0806170115i40fac543vdeede1c4ef6199ec@mail.gmail.com>
+
+Hello,
+
+Ah ... that is bad news indeed. I didn't know that you were trying to get a
+sponsorship for the project.
+
+~Rohit
+
+2008/6/17 Vitaly V. Ch <vitaly.v.ch at gmail.com>:
+
+> ? ????????? ;(
+>
+> On Mon, Jun 16, 2008 at 11:42 AM, Tirra <tirra.newly at gmail.com> wrote:
+> > Hello folks,
+> > I have a bad news - planned way with sponsoring to the project was
+> > rejected ;(
+> >
+> >
+> > In this case I'm standing my works on project like a hobby (my general
+> > hobby).
+> > Deadlines for starting up moving - now it's december of 2008.
+> >
+> > If you have comments or something else - mail here.
+> >
+> > thank you - have a nice day.
+> > _______________________________________________
+> > Mstring-coredev mailing list
+> > Mstring-coredev at lists.berlios.de
+> > https://lists.berlios.de/mailman/listinfo/mstring-coredev
+> >
+> _______________________________________________
+> Mstring-coredev mailing list
+> Mstring-coredev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/mstring-coredev
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080617/e22f824c/attachment.html>
+
+From tirra.newly at gmail.com  Tue Jun 17 11:44:56 2008
+From: tirra.newly at gmail.com (Tirra)
+Date: Tue, 17 Jun 2008 13:44:56 +0400
+Subject: [Mstring-coredev] Support and sponsorship
+In-Reply-To: <cc8e457e0806170115i40fac543vdeede1c4ef6199ec@mail.gmail.com>
+References: <4856519C.9020408@gmail.com>	
+	<6efe08af0806162255m470f04cv440047179f350f5d@mail.gmail.com>
+	<cc8e457e0806170115i40fac543vdeede1c4ef6199ec@mail.gmail.com>
+Message-ID: <48578798.1080603@gmail.com>
+
+Rohit Hooda wrote:
+> Hello,
+Hello,
+>
+> Ah ... that is bad news indeed. I didn't know that you were trying to 
+> get a sponsorship for the project.
+Yes, I've a plan for it - it was a fantastic scheme - there are was 
+financing for all dev team ... but now I can said that it's failed ;(
+
+Anyway, don't be sad - we're need to make all stuff - it's good for 
+brains - and it's a good project to show your potential employer ... I 
+think ...
+
+I'm ok - and I get ready to continue development on project today ;) 
+it's a good news I think ....
+>
+> ~Rohit
+>
+> 2008/6/17 Vitaly V. Ch <vitaly.v.ch <http://vitaly.v.ch>@gmail.com 
+> <http://gmail.com>>:
+>
+>     ? ????????? ;(
+>
+>     On Mon, Jun 16, 2008 at 11:42 AM, Tirra <tirra.newly at gmail.com
+>     <mailto:tirra.newly at gmail.com>> wrote:
+>     > Hello folks,
+>     > I have a bad news - planned way with sponsoring to the project was
+>     > rejected ;(
+>     >
+>     >
+>     > In this case I'm standing my works on project like a hobby (my
+>     general
+>     > hobby).
+>     > Deadlines for starting up moving - now it's december of 2008.
+>     >
+>     > If you have comments or something else - mail here.
+>     >
+>     > thank you - have a nice day.
+>     > _______________________________________________
+>     > Mstring-coredev mailing list
+>     > Mstring-coredev at lists.berlios.de
+>     <mailto:Mstring-coredev at lists.berlios.de>
+>     > https://lists.berlios.de/mailman/listinfo/mstring-coredev
+>     >
+>     _______________________________________________
+>     Mstring-coredev mailing list
+>     Mstring-coredev at lists.berlios.de
+>     <mailto:Mstring-coredev at lists.berlios.de>
+>     https://lists.berlios.de/mailman/listinfo/mstring-coredev
+>
+>
+
+
+
+From hooda.rohit at gmail.com  Tue Jun 17 12:04:56 2008
+From: hooda.rohit at gmail.com (Rohit Hooda)
+Date: Tue, 17 Jun 2008 15:34:56 +0530
+Subject: [Mstring-coredev] Support and sponsorship
+In-Reply-To: <48578798.1080603@gmail.com>
+References: <4856519C.9020408@gmail.com>
+	<6efe08af0806162255m470f04cv440047179f350f5d@mail.gmail.com>
+	<cc8e457e0806170115i40fac543vdeede1c4ef6199ec@mail.gmail.com>
+	<48578798.1080603@gmail.com>
+Message-ID: <cc8e457e0806170304q126c7d1fkd5eb3dd6d318ad70@mail.gmail.com>
+
+Hi,
+
+On Tue, Jun 17, 2008 at 3:14 PM, Tirra <tirra.newly at gmail.com> wrote:
+
+> Rohit Hooda wrote:
+>
+>> Hello,
+>>
+> Hello,
+>
+>>
+>> Ah ... that is bad news indeed. I didn't know that you were trying to get
+>> a sponsorship for the project.
+>>
+> Yes, I've a plan for it - it was a fantastic scheme - there are was
+> financing for all dev team ... but now I can said that it's failed ;(
+>
+> Anyway, don't be sad - we're need to make all stuff - it's good for brains
+> - and it's a good project to show your potential employer ... I think ...
+
+Yes, it is a very good project to work on and I will also work on this along
+with my studies and contribute as much as I can.
+
+>
+>
+> I'm ok - and I get ready to continue development on project today ;) it's a
+> good news I think ....
+>
+>>
+>> ~Rohit
+>>
+>> 2008/6/17 Vitaly V. Ch <vitaly.v.ch <http://vitaly.v.ch>@gmail.com <
+>> http://gmail.com>>:
+>>
+>>    ? ????????? ;(
+>>
+>>    On Mon, Jun 16, 2008 at 11:42 AM, Tirra <tirra.newly at gmail.com
+>>    <mailto:tirra.newly at gmail.com>> wrote:
+>>    > Hello folks,
+>>    > I have a bad news - planned way with sponsoring to the project was
+>>    > rejected ;(
+>>    >
+>>    >
+>>    > In this case I'm standing my works on project like a hobby (my
+>>    general
+>>    > hobby).
+>>    > Deadlines for starting up moving - now it's december of 2008.
+>>    >
+>>    > If you have comments or something else - mail here.
+>>    >
+>>    > thank you - have a nice day.
+>>    > _______________________________________________
+>>    > Mstring-coredev mailing list
+>>    > Mstring-coredev at lists.berlios.de
+>>    <mailto:Mstring-coredev at lists.berlios.de>
+>>    > https://lists.berlios.de/mailman/listinfo/mstring-coredev
+>>    >
+>>    _______________________________________________
+>>    Mstring-coredev mailing list
+>>    Mstring-coredev at lists.berlios.de
+>>    <mailto:Mstring-coredev at lists.berlios.de>
+>>    https://lists.berlios.de/mailman/listinfo/mstring-coredev
+>>
+>>
+>>
+>
+
+
+-- 
+Thanks,
+Rohit Hooda
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080617/c9f5fc30/attachment.html>
+
+From tirra.newly at gmail.com  Tue Jun 17 12:16:02 2008
+From: tirra.newly at gmail.com (Tirra)
+Date: Tue, 17 Jun 2008 14:16:02 +0400
+Subject: [Mstring-coredev] Support and sponsorship
+In-Reply-To: <cc8e457e0806170304q126c7d1fkd5eb3dd6d318ad70@mail.gmail.com>
+References: <4856519C.9020408@gmail.com>	
+	<6efe08af0806162255m470f04cv440047179f350f5d@mail.gmail.com>	
+	<cc8e457e0806170115i40fac543vdeede1c4ef6199ec@mail.gmail.com>	
+	<48578798.1080603@gmail.com>
+	<cc8e457e0806170304q126c7d1fkd5eb3dd6d318ad70@mail.gmail.com>
+Message-ID: <48578EE2.2070703@gmail.com>
+
+hi,
+Rohit Hooda wrote:
+> Hi,
+>
+> On Tue, Jun 17, 2008 at 3:14 PM, Tirra <tirra.newly at gmail.com 
+> <mailto:tirra.newly at gmail.com>> wrote:
+>
+>     Rohit Hooda wrote:
+>
+>         Hello,
+>
+>     Hello,
+>
+>
+>         Ah ... that is bad news indeed. I didn't know that you were
+>         trying to get a sponsorship for the project.
+>
+>     Yes, I've a plan for it - it was a fantastic scheme - there are
+>     was financing for all dev team ... but now I can said that it's
+>     failed ;(
+>
+>     Anyway, don't be sad - we're need to make all stuff - it's good
+>     for brains - and it's a good project to show your potential
+>     employer ... I think ...
+>
+> Yes, it is a very good project to work on and I will also work on this 
+> along with my studies and contribute as much as I can.
+it's ok - thanks for supporting on work on it - I hope some later I will 
+give new directions on works.
+What about your task ?
+
+BTW, I will write later about project stages.
+>
+>
+>
+>     I'm ok - and I get ready to continue development on project today
+>     ;) it's a good news I think ....
+>
+>
+>         ~Rohit
+>
+>         2008/6/17 Vitaly V. Ch <vitaly.v.ch <http://vitaly.v.ch>
+>         <http://vitaly.v.ch>@gmail.com <http://gmail.com>
+>         <http://gmail.com>>:
+>
+>
+>            ? ????????? ;(
+>
+>            On Mon, Jun 16, 2008 at 11:42 AM, Tirra
+>         <tirra.newly at gmail.com <mailto:tirra.newly at gmail.com>
+>            <mailto:tirra.newly at gmail.com
+>         <mailto:tirra.newly at gmail.com>>> wrote:
+>            > Hello folks,
+>            > I have a bad news - planned way with sponsoring to the
+>         project was
+>            > rejected ;(
+>            >
+>            >
+>            > In this case I'm standing my works on project like a
+>         hobby (my
+>            general
+>            > hobby).
+>            > Deadlines for starting up moving - now it's december of 2008.
+>            >
+>            > If you have comments or something else - mail here.
+>            >
+>            > thank you - have a nice day.
+>            > _______________________________________________
+>            > Mstring-coredev mailing list
+>            > Mstring-coredev at lists.berlios.de
+>         <mailto:Mstring-coredev at lists.berlios.de>
+>            <mailto:Mstring-coredev at lists.berlios.de
+>         <mailto:Mstring-coredev at lists.berlios.de>>
+>
+>            > https://lists.berlios.de/mailman/listinfo/mstring-coredev
+>            >
+>            _______________________________________________
+>            Mstring-coredev mailing list
+>            Mstring-coredev at lists.berlios.de
+>         <mailto:Mstring-coredev at lists.berlios.de>
+>            <mailto:Mstring-coredev at lists.berlios.de
+>         <mailto:Mstring-coredev at lists.berlios.de>>
+>
+>            https://lists.berlios.de/mailman/listinfo/mstring-coredev
+>
+>
+>
+>
+>
+>
+> -- 
+> Thanks,
+> Rohit Hooda 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080617/ba281f2c/attachment.html>
+
+From hooda.rohit at gmail.com  Tue Jun 17 12:21:09 2008
+From: hooda.rohit at gmail.com (Rohit Hooda)
+Date: Tue, 17 Jun 2008 15:51:09 +0530
+Subject: [Mstring-coredev] Support and sponsorship
+In-Reply-To: <48578EE2.2070703@gmail.com>
+References: <4856519C.9020408@gmail.com>
+	<6efe08af0806162255m470f04cv440047179f350f5d@mail.gmail.com>
+	<cc8e457e0806170115i40fac543vdeede1c4ef6199ec@mail.gmail.com>
+	<48578798.1080603@gmail.com>
+	<cc8e457e0806170304q126c7d1fkd5eb3dd6d318ad70@mail.gmail.com>
+	<48578EE2.2070703@gmail.com>
+Message-ID: <cc8e457e0806170321p7fd0eb3bpc0425fc6c613d55a@mail.gmail.com>
+
+2008/6/17 Tirra <tirra.newly at gmail.com>:
+
+>  hi,
+> Rohit Hooda wrote:
+>
+> Hi,
+>
+> On Tue, Jun 17, 2008 at 3:14 PM, Tirra <tirra.newly at gmail.com> wrote:
+>
+>> Rohit Hooda wrote:
+>>
+>>> Hello,
+>>>
+>> Hello,
+>>
+>>>
+>>> Ah ... that is bad news indeed. I didn't know that you were trying to get
+>>> a sponsorship for the project.
+>>>
+>>  Yes, I've a plan for it - it was a fantastic scheme - there are was
+>> financing for all dev team ... but now I can said that it's failed ;(
+>>
+>> Anyway, don't be sad - we're need to make all stuff - it's good for brains
+>> - and it's a good project to show your potential employer ... I think ...
+>
+> Yes, it is a very good project to work on and I will also work on this
+> along with my studies and contribute as much as I can.
+>
+> it's ok - thanks for supporting on work on it - I hope some later I will
+> give new directions on works.
+> What about your task ?
+>
+Reading the project documentation is over. When ever I get time, I am onto
+reading Intel's developer manual.
+
+>
+>
+> BTW, I will write later about project stages.
+>
+>
+>>
+>> I'm ok - and I get ready to continue development on project today ;) it's
+>> a good news I think ....
+>>
+>>>
+>>> ~Rohit
+>>>
+>>> 2008/6/17 Vitaly V. Ch <vitaly.v.ch <http://vitaly.v.ch>@gmail.com <
+>>> http://gmail.com>>:
+>>>
+>>>    ? ????????? ;(
+>>>
+>>>    On Mon, Jun 16, 2008 at 11:42 AM, Tirra <tirra.newly at gmail.com
+>>>     <mailto:tirra.newly at gmail.com>> wrote:
+>>>    > Hello folks,
+>>>    > I have a bad news - planned way with sponsoring to the project was
+>>>    > rejected ;(
+>>>    >
+>>>    >
+>>>    > In this case I'm standing my works on project like a hobby (my
+>>>    general
+>>>    > hobby).
+>>>    > Deadlines for starting up moving - now it's december of 2008.
+>>>    >
+>>>    > If you have comments or something else - mail here.
+>>>    >
+>>>    > thank you - have a nice day.
+>>>    > _______________________________________________
+>>>    > Mstring-coredev mailing list
+>>>    > Mstring-coredev at lists.berlios.de
+>>>     <mailto:Mstring-coredev at lists.berlios.de>
+>>>    > https://lists.berlios.de/mailman/listinfo/mstring-coredev
+>>>    >
+>>>    _______________________________________________
+>>>    Mstring-coredev mailing list
+>>>    Mstring-coredev at lists.berlios.de
+>>>     <mailto:Mstring-coredev at lists.berlios.de>
+>>>    https://lists.berlios.de/mailman/listinfo/mstring-coredev
+>>>
+>>>
+>>>
+>>
+>
+>
+> --
+> Thanks,
+> Rohit Hooda
+>
+>
+>
+
+
+-- 
+Thanks,
+Rohit Hooda
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080617/d7926930/attachment.html>
+
+From tirra.newly at gmail.com  Sat Jun 21 16:28:58 2008
+From: tirra.newly at gmail.com (Tirra)
+Date: Sat, 21 Jun 2008 18:28:58 +0400
+Subject: [Mstring-coredev] AMD64 specific SMPchanges
+Message-ID: <485D102A.70504@gmail.com>
+
+Hello folks,
+today I've added initial SMP support to amd64 port (not at all, just 
+basic init and spinlock's code).
+
+If you are working on MuiString repository - please be updated, I will 
+commit many things soon that SMP related.
+
+Also, for your interest - or maybe for general information and better 
+understanding of amd64 bootstrap specific I wrote small doc - look it 
+here - http://0xffffffc0h.blogspot.com/2008/06/amd64-1-long-mode.html - 
+this is my blog - I will write there many technical stuff.
+
+Thanks, if any comments or questions - please write here.
+
+
+
+From hooda.rohit at gmail.com  Mon Jun 23 20:07:05 2008
+From: hooda.rohit at gmail.com (Rohit Hooda)
+Date: Mon, 23 Jun 2008 14:07:05 -0400
+Subject: [Mstring-coredev] Error in compiling project MuiString
+Message-ID: <cc8e457e0806231107i6d09cb80k64b15bcc22c17730@mail.gmail.com>
+
+Hello,
+
+When I do a make in the root project directory of MuiString then I get the
+following messages :
+
+[root at rohit-laptop MuiString]# make
+[CC] eza/generic_api/main.c
+eza/generic_api/main.c:1: error: code model 'kernel' not supported in the 32
+bit mode
+eza/generic_api/main.c:1: sorry, unimplemented: 64-bit mode not compiled in
+make: *** [eza/generic_api/main.o] Error 1
+
+My config and Makefile.inc are default, I haven't made any changes to them.
+
+Let me know how to get around this problem
+
+-- 
+Thanks,
+Rohit Hooda
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080623/e5b39d0a/attachment.html>
+
+From tirra.newly at gmail.com  Mon Jun 23 22:51:12 2008
+From: tirra.newly at gmail.com (Tirra)
+Date: Tue, 24 Jun 2008 00:51:12 +0400
+Subject: [Mstring-coredev] Error in compiling project MuiString
+In-Reply-To: <cc8e457e0806231107i6d09cb80k64b15bcc22c17730@mail.gmail.com>
+References: <cc8e457e0806231107i6d09cb80k64b15bcc22c17730@mail.gmail.com>
+Message-ID: <48600CC0.7030500@gmail.com>
+
+Rohit Hooda wrote:
+> Hello,
+Hello,
+>
+> When I do a make in the root project directory of MuiString then I get 
+> the following messages :
+>
+> [root at rohit-laptop MuiString]# make
+> [CC] eza/generic_api/main.c
+> eza/generic_api/main.c:1: error: code model 'kernel' not supported in 
+> the 32 bit mode
+> eza/generic_api/main.c:1: sorry, unimplemented: 64-bit mode not 
+> compiled in
+> make: *** [eza/generic_api/main.o] Error 1
+It's a problem of your compiler and binutils - you need amd64 port.
+In this case I can recommend you to do the following -
+download gcc and binutils - compile it for target amd64 and make changes 
+to Makefile.inc  - so, I can minimize your headache - there are two 
+files in attachments - the shell script will do all stuff for amd64 gcc 
+and binutils (run as root) - and Makefile.inc - that you need.
+
+If paths is not correct in Makefile.inc - correct it with right ones.
+
+Thanks.
+
+>
+> My config and Makefile.inc are default, I haven't made any changes to 
+> them.
+>
+> Let me know how to get around this problem
+>
+> -- 
+> Thanks,
+> Rohit Hooda
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Mstring-coredev mailing list
+> Mstring-coredev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/mstring-coredev
+>   
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080624/b1d22d44/attachment.html>
+-------------- next part --------------
+An embedded and charset-unspecified text was scrubbed...
+Name: Makefile.inc
+URL: <https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080624/b1d22d44/attachment.ksh>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: toolchain.amd64.sh
+Type: application/x-sh
+Size: 2750 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080624/b1d22d44/attachment.sh>
+
+From tirra.newly at gmail.com  Tue Jun 24 01:49:42 2008
+From: tirra.newly at gmail.com (Tirra)
+Date: Tue, 24 Jun 2008 03:49:42 +0400
+Subject: [Mstring-coredev] Virtual memory design - free microkernel from
+	possible bugs ...
+Message-ID: <48603696.2070700@gmail.com>
+
+Hello folks,
+today I'm thinking about overall design of virtual memory in the 
+MuiString based OS.
+I've made some simulation and research - here it my post about it - 
+http://0xffffffc0h.blogspot.com/2008/06/muistring-higher-memory-management.html
+Discussing are highly welcome.
+
+Thanks.
+
+
+From hooda.rohit at gmail.com  Thu Jun 26 23:34:44 2008
+From: hooda.rohit at gmail.com (Rohit Hooda)
+Date: Thu, 26 Jun 2008 17:34:44 -0400
+Subject: [Mstring-coredev] Help needed for booting the MuiString kernel in
+	bochs
+Message-ID: <cc8e457e0806261434h2d0217f7gc39191cf66513a11@mail.gmail.com>
+
+Hello,
+
+I have done the bochs set-up same as mentioned in the wiki file. But I
+couldn't find how to link the MuiString (vmuielf) kernel binary and use it
+to boot in bochs.
+How should I go about doing this?
+
+-- 
+Thanks,
+Rohit Hooda
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080626/a4e1e5da/attachment.html>
+
+From hooda.rohit at gmail.com  Fri Jun 27 10:25:55 2008
+From: hooda.rohit at gmail.com (Rohit Hooda)
+Date: Fri, 27 Jun 2008 13:55:55 +0530
+Subject: [Mstring-coredev] Help needed for booting the MuiString kernel
+	in bochs
+In-Reply-To: <cc8e457e0806261434h2d0217f7gc39191cf66513a11@mail.gmail.com>
+References: <cc8e457e0806261434h2d0217f7gc39191cf66513a11@mail.gmail.com>
+Message-ID: <cc8e457e0806270125s6ffb77e3ra50261947a41113e@mail.gmail.com>
+
+On Fri, Jun 27, 2008 at 3:04 AM, Rohit Hooda <hooda.rohit at gmail.com> wrote:
+
+> Hello,
+>
+> I have done the bochs set-up same as mentioned in the wiki file. But I
+> couldn't find how to link the MuiString (vmuielf) kernel binary and use it
+> to boot in bochs.
+> How should I go about doing this?
+
+When, I mount the images as a loop back device on a $MOUNT_POINT and then
+try to install grub on it. I am unable to do it.
+
+Following is the output of the gurb prompt :
+    GNU GRUB  version 0.97  (640K lower / 3072K upper memory)
+
+ [ Minimal BASH-like line editing is supported.  For the first word, TAB
+   lists possible command completions.  Anywhere else TAB lists the possible
+   completions of a device/filename.]
+
+grub> device (fd0) /dev/loop0
+
+grub> root (fd0)Unknown partition table signature
+ Filesystem type is ext2fs, using whole disk
+
+grub> setup (fd0)
+ Checking if "/boot/grub/stage1" exists... no
+ Checking if "/grub/stage1" exists... no
+
+Error 15: File not found
+
+---------------------------------
+Following is my bochsrc file :
+cpu: count=1
+megs: 32
+#floppya: 1_44=/mnt/c/jari-boot/boot.img, status=inserted
+ata0-master type=disk, path="/mnt/c/jari-boot/boot.img", mode=flat,
+cylinders=520, heads=2048, spt=63
+boot: floppy
+romimage: file=/usr/share/bochs/BIOS-bochs-latest
+
+
+>
+> --
+> Thanks,
+> Rohit Hooda
+
+
+
+
+-- 
+Thanks,
+Rohit Hooda
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080627/13f51566/attachment.html>
+
+From tirra.newly at gmail.com  Fri Jun 27 10:57:02 2008
+From: tirra.newly at gmail.com (Tirra)
+Date: Fri, 27 Jun 2008 12:57:02 +0400
+Subject: [Mstring-coredev] Help needed for booting the MuiString kernel
+ in bochs
+In-Reply-To: <cc8e457e0806270125s6ffb77e3ra50261947a41113e@mail.gmail.com>
+References: <cc8e457e0806261434h2d0217f7gc39191cf66513a11@mail.gmail.com>
+	<cc8e457e0806270125s6ffb77e3ra50261947a41113e@mail.gmail.com>
+Message-ID: <4864AB5E.9080504@gmail.com>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080627/1ece6506/attachment.html>
+
+From tirra.newly at gmail.com  Fri Jun 27 15:41:48 2008
+From: tirra.newly at gmail.com (Tirra)
+Date: Fri, 27 Jun 2008 17:41:48 +0400
+Subject: [Mstring-coredev] Added EmuStartKit ...
+Message-ID: <4864EE1C.8060809@gmail.com>
+
+Hello folks,
+Today I've decided to make a contribution to make help with project 
+development.
+There are many tricks with installing grub to hard disk image file, and 
+I didn't get anything of them works.
+I've made an hard disk image (working on bochs and qemu) with installed 
+grub, and I've add an entry to the menu.lst to make all processes making 
+simple.
+Disk image is made with 256Mb size ext2 fs (I'm planning to develop a 
+microkernel server that will works with ext2 filesystem first).
+Also, there are useful script that will simply copying compiled kernel 
+to the image.
+So - you can download it here - 
+http://prdownload.berlios.de/mstring/emustartkit-1.0.tar.bz2 (~511Kb)
+In this tarball you will find hd0.img.bz2 - after decompressing it will 
+takes 256Mb, and script - in this script you chould change the path of 
+your sandbox sources - this is all.
+In addition - here my ~/.bochsrc that works with this image:
+
+    cpu:
+    count=1                                                                                                               
+
+    megs:
+    32                                                                                                                   
+
+    floppya: 1_44=/usr/lib/grub-rescue/grub-rescue-floppy.img,
+    status=inserted                                                 
+    ata0-master: type=disk,
+    path="/home/tirra/works/Jari/m-spring/emu/hd0.img", mode=flat,
+    cylinders=520, heads=16, spt=63     
+    boot:
+    disk                                                                                                                 
+
+    romimage:
+    file=/usr/share/bochs/BIOS-bochs-latest                                                                          
+
+    vgaromimage: /usr/share/vgabios/vgabios.bin
+
+On this image you will find built vmuielf image.
+
+Thanks and happy development.
+
+

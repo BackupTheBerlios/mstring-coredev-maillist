@@ -1,0 +1,51 @@
+From tirra.newly at gmail.com  Tue Jul  1 23:13:47 2008
+From: tirra.newly at gmail.com (Tirra)
+Date: Wed, 02 Jul 2008 01:13:47 +0400
+Subject: [Mstring-coredev] About commit and mails
+Message-ID: <486A9E0B.2070803@gmail.com>
+
+Hello folks,
+Berlios doesn't allow to setup automatic emailing to maillist on every 
+made commit.
+But it can be really useful.
+In this case I decide the following - in case of not so often commits 
+everybody can write an email to the maillist, like usually I've decided 
+to make a standart style - the first - there email can be filtered via 
+regular expressions, the second - everybody will know about commit and 
+changes.
+So on - the rules:
+Subject: *commit* /modulename/ subjectofcommit
+Body: ... ... ... Files added
+... ... ... Files changed
+... ... ... Files deleted
+Comments on this.
+
+So, information about changed/deleted/added files you can take while you 
+make commit.
+
+I will made a commit soon, it will be like example.
+
+Anyway, if you have questions or suggestions - you are welcome.
+
+Thanks and have a nice day/evening/night. ;)
+
+
+From tirra.newly at gmail.com  Wed Jul  2 02:03:34 2008
+From: tirra.newly at gmail.com (Tirra)
+Date: Wed, 02 Jul 2008 04:03:34 +0400
+Subject: [Mstring-coredev] *commit* /MuiString/ added binary buddy
+	abstraction
+Message-ID: <486AC5D6.2010107@gmail.com>
+
+Modified Files:       
+    Makefile include/eza/amd64/types.h       
+Added Files:       
+    include/mm/bbuddy.h mm/Makefile.inc mm/bbuddy.c 
+
+It's initial implementation - it works, tested, but I will add some 
+checking later, and optimize it, I write this quickly and in this case 
+I've forgot made some checking...
+Anyway, it will be stress tested later in microkernel.
+
+
+

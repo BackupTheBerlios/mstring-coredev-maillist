@@ -1,0 +1,91 @@
+From tirra.newly at gmail.com  Tue May 27 00:15:05 2008
+From: tirra.newly at gmail.com (Tirra)
+Date: Tue, 27 May 2008 02:15:05 +0400
+Subject: [Mstring-coredev] Documentation update - new structure
+Message-ID: <483B3669.3090905@gmail.com>
+
+Hello folks,
+I've created a draft with new specification of the microkernel and it's 
+structure.
+
+You can find this document via this link - 
+http://mstring.berlios.de/wiki/doku.php?id=muistring_structure
+
+This is a new (and really first!) specification on the microkernel 
+architecture and specification that fully accepted by my wide of  the 
+microkernel design architecture.
+
+Using my maintainer and project founder rights - I'm requere to follow 
+this specification during the development process.
+
+It's a finished solution, this draft will be updated soon for other parts.
+
+In addition - I', creating a skel for this - all development must be 
+moved out from mkernel module to new one MuiString.
+
+I'm ready for comments and flame here, you are welcome ;)
+
+PS some later I will commit my own source code for one of the 
+architecture platform - it will be something like example. I'm worried 
+about development speed, and I want to grow up it ...
+PPS I don't like low-level development in this case.
+
+Thank you.
+
+
+From tirra.newly at gmail.com  Wed May 28 15:09:41 2008
+From: tirra.newly at gmail.com (Tirra)
+Date: Wed, 28 May 2008 17:09:41 +0400
+Subject: [Mstring-coredev] Documentation update - Code style manual
+Message-ID: <483D5995.1060407@gmail.com>
+
+Hello folks,
+please read this - 
+http://mstring.berlios.de/wiki/doku.php?id=code_style_manual ,
+and use this style for your source code.
+
+PS This document will be updated soon, but it contain general notes.
+
+thank you.
+
+
+From hooda.rohit at gmail.com  Wed May 28 21:36:52 2008
+From: hooda.rohit at gmail.com (Rohit Hooda)
+Date: Thu, 29 May 2008 01:06:52 +0530
+Subject: [Mstring-coredev] Documentation update - Code style manual
+In-Reply-To: <483D5995.1060407@gmail.com>
+References: <483D5995.1060407@gmail.com>
+Message-ID: <cc8e457e0805281236x1e75ed5fp7c64f719bc9e5d5b@mail.gmail.com>
+
+Hi,
+
+I read the code style manual. Its a good read to start coding in this
+project.
+
+
+
+On Wed, May 28, 2008 at 6:39 PM, Tirra <tirra.newly at gmail.com> wrote:
+
+> Hello folks,
+> please read this -
+> http://mstring.berlios.de/wiki/doku.php?id=code_style_manual ,
+> and use this style for your source code.
+>
+> PS This document will be updated soon, but it contain general notes.
+>
+> thank you.
+> _______________________________________________
+> Mstring-coredev mailing list
+> Mstring-coredev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/mstring-coredev
+>
+
+
+
+-- 
+Thanks,
+Rohit Hooda
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/mstring-coredev/attachments/20080529/46cc30c6/attachment.html>
+

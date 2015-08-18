@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Mstring-coredev] Added EmuStartKit ...
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/mstring-coredev/2008-June/index.html" >
+   <LINK REL="made" HREF="mailto:mstring-coredev%40lists.berlios.de?Subject=Re%3A%20%5BMstring-coredev%5D%20Added%20EmuStartKit%20...&In-Reply-To=%3C4864EE1C.8060809%40gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000017.html">
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Mstring-coredev] Added EmuStartKit ...</H1>
+    <B>Tirra</B> 
+    <A HREF="mailto:mstring-coredev%40lists.berlios.de?Subject=Re%3A%20%5BMstring-coredev%5D%20Added%20EmuStartKit%20...&In-Reply-To=%3C4864EE1C.8060809%40gmail.com%3E"
+       TITLE="[Mstring-coredev] Added EmuStartKit ...">tirra.newly at gmail.com
+       </A><BR>
+    <I>Fri Jun 27 15:41:48 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000017.html">[Mstring-coredev] Help needed for booting the MuiString kernel in bochs
+</A></li>
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#18">[ date ]</a>
+              <a href="thread.html#18">[ thread ]</a>
+              <a href="subject.html#18">[ subject ]</a>
+              <a href="author.html#18">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hello folks,
+Today I've decided to make a contribution to make help with project 
+development.
+There are many tricks with installing grub to hard disk image file, and 
+I didn't get anything of them works.
+I've made an hard disk image (working on bochs and qemu) with installed 
+grub, and I've add an entry to the menu.lst to make all processes making 
+simple.
+Disk image is made with 256Mb size ext2 fs (I'm planning to develop a 
+microkernel server that will works with ext2 filesystem first).
+Also, there are useful script that will simply copying compiled kernel 
+to the image.
+So - you can download it here - 
+<A HREF="http://prdownload.berlios.de/mstring/emustartkit-1.0.tar.bz2">http://prdownload.berlios.de/mstring/emustartkit-1.0.tar.bz2</A> (~511Kb)
+In this tarball you will find hd0.img.bz2 - after decompressing it will 
+takes 256Mb, and script - in this script you chould change the path of 
+your sandbox sources - this is all.
+In addition - here my ~/.bochsrc that works with this image:
+
+    cpu:
+    count=1                                                                                                               
+
+    megs:
+    32                                                                                                                   
+
+    floppya: 1_44=/usr/lib/grub-rescue/grub-rescue-floppy.img,
+    status=inserted                                                 
+    ata0-master: type=disk,
+    path=&quot;/home/tirra/works/Jari/m-spring/emu/hd0.img&quot;, mode=flat,
+    cylinders=520, heads=16, spt=63     
+    boot:
+    disk                                                                                                                 
+
+    romimage:
+    file=/usr/share/bochs/BIOS-bochs-latest                                                                          
+
+    vgaromimage: /usr/share/vgabios/vgabios.bin
+
+On this image you will find built vmuielf image.
+
+Thanks and happy development.
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000017.html">[Mstring-coredev] Help needed for booting the MuiString kernel in bochs
+</A></li>
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#18">[ date ]</a>
+              <a href="thread.html#18">[ thread ]</a>
+              <a href="subject.html#18">[ subject ]</a>
+              <a href="author.html#18">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/mstring-coredev">More information about the Mstring-coredev
+mailing list</a><br>
+</body></html>
